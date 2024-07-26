@@ -63,6 +63,7 @@ navbar li{
 
 }
 /* home page start  */
+
  .home_slid{
     position: relative;
 }
@@ -130,4 +131,54 @@ navbar li{
 
 .indicator.active {
     background: #333;
+} 
+
+
+/* page nubr 2 */
+.pag_2{
+    
 }
+.pag_2_heding{
+    text-align: center;
+    margin-top:80px ;
+    font-size: x-large;
+    gap: 10px;
+}
+.pag_2_heding p{
+    font-size: large;
+    color: rgb(164, 157, 157);
+    margin-top: 10px;
+}
+.pag_2_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+.pag_2_img img{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+}
+.pag_2-button{
+
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    margin-top: 20px;
+    }
+.pag_2-button button{
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 30px;
+    border: 1px solid white;
+    background-color: black;
+    margin-bottom: 175px;
+}
+
+
