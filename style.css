@@ -169,23 +169,24 @@ navbar li{
     width: 250px;
     height: 150px;
 }
-.pag_2-button{
-
- display: flex;
+.pag_2-button_bilal{
+    /* width: 200px; */
+    display: flex ;
     align-items: center;
     justify-content: center;
-    gap:100px;
-    margin-top: 20px;
+    margin-top: 50px;
+    gap: 130px;
+    /* margin-right: 170px; */
     }
-.pag_2-button button{
-    width: 180px;
+.pag_2-button_bilal button{
+    width: 150px;
     height: 40px;
     border-radius: 50px;
     color: white;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border: 1px solid white;
     background-color: black;
-    margin-bottom: 175px;
+    margin-bottom: 125px;
 }
 
 /* page 3  */
@@ -227,10 +228,7 @@ navbar li{
     align-items: center;
     padding: 10px;
 }
-.pag_2-button button {
-    /* font-size: 40px; */
-    padding: 10px;
-}
+
 .pag_3_button img{
     margin-left: 10px;
     margin-bottom: 10px;
@@ -528,4 +526,102 @@ padding: 10px;
     gap: 20px;
     margin-top: 20px;
     /* margin-left: 50px; */
+}
+
+
+.page_9_1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page_9_1 img{
+    width: 240px;
+    height: 240px;
+}
+.page_9 h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+    padding-top: 40px;
+    background-color: #1c1b1b;
+}
+.footer_img img{
+    width: 165px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer_2{
+padding-top:50px;
+
+
+}
+.footer_2 p{
+    padding-top: 20px;
+}
+.footer_3{
+padding-top: 30px;
+
+}
+.footer_3 h2{
+    padding-top: 20px;
+}
+.footer_3 p{
+    padding-top: 20px;
+}
+.footer_4{
+padding-top:50px;
+
+}
+.footer_4 img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+.footer_4_2{
+    background-color: red;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    gap: 40px;
+}
+.footer_5 button{
+    width: 200px;
+    height: 50px;
+}
+.footer_5 button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(212, 207, 207);
+}
+.footer_5_b-1{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 540px;
+    font-weight: 300;
+    color: #817b7b;
 }
